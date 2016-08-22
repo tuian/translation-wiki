@@ -80,4 +80,4 @@
 ```
 更多的信息可以查看这个网页: http://tecadmin.net/authz-core-error-client-denied-by-server-configuration/
 
-本文由 [Huginn中文网](huginn.cn) 翻译，已经获得作者翻译授权，最新文章请访问 https://github.com/cantino/huginn/wiki
+本文由 [Huginn 中文网](www.huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 https://github.com/cantino/huginn/wiki
