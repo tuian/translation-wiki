@@ -1,42 +1,44 @@
-## Install [Huginn](https://github.com/cantino/huginn)
+部署 Huginn
 
-1. 克隆这个 repo
+    克隆这个 repo
 
-        $ git clone git@github.com:cantino/huginn.git
-        $ cd huginn
+    $ git clone git@github.com:cantino/huginn.git
+    $ cd huginn
 
-2. 安装 [Ruby](http://www.ruby-lang.org/en/downloads/) and [Ruby Gems](https://rubygems.org/pages/download) (如果未安装)
-3. 安装 rake 和 bundle (如果未安装):
+    安装 Ruby and Ruby Gems (如果未安装)
 
-        $ gem install rake bundle
+    安装 rake 和 bundle (如果未安装):
 
-4. 安装 Huginn需要的依赖文件
+    $ gem install rake bundle
 
-        $ bundle install
+    安装 Huginn 需要的依赖文件
 
-5. 安装 [MySQL](http://dev.mysql.com/downloads/)
-6. 启动MySQL 服务:
+    $ bundle install
 
-        $ mysql.server start
+    安装 MySQL
 
-6. 复制 *.env.example* 为 *.env*:
+    启动 MySQL 服务:
 
-        $ cp .env.example .env
+    $ mysql.server start
 
-8. 生成 `APP_SECRET_TOKEN`:
+    复制 .env.example 为 .env:
 
-        $ rake secret
+    $ cp .env.example .env
 
-7. 编辑 *.env*文件, 在 `APP_SECRET_TOKEN`里面填入刚才生成的TOKEN密匙.
-8. 使用实例模板创建正式的 MySQL 数据库:
+    生成 APP_SECRET_TOKEN:
 
-        $ rake db:create
-        $ rake db:migrate
-        $ rake db:seed
+    $ rake secret
 
-8. 准备就绪后. 启动本地服务: 
+    编辑 .env文件, 在 APP_SECRET_TOKEN里面填入刚才生成的 TOKEN 密匙.
 
-        $ foreman start  
+    使用实例模板创建正式的 MySQL 数据库:
 
-    访问 [http://localhost:3000/](http://localhost:3000/) 然后使用默认的帐号和密码登录即可.
+    $ rake db:create
+    $ rake db:migrate
+    $ rake db:seed
 
+    准备就绪后. 启动本地服务:
+
+    $ foreman start  
+
+    访问 http://localhost:3000/ 然后使用默认的帐号和密码登录即可.
