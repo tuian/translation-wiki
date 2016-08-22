@@ -1,10 +1,10 @@
-# 筛选RSS源，制作新的全文RSS源
-**问题**：假如你喜欢的网站只提供摘要型的RSS源，但是你希望能在RSS阅读器中阅读全文RSS，同时还希望它只推送某些特定的文章
-**解决方法**：利用Huginn制作一个经过筛选的全文RSS源，实现方法如下：
-1. RSSAgent：获取并解析网站提供的RSS源；
-2. TriggerAgent：过滤RSS源中的项目；
-3. WebsiteAgent：通过RSS源中的项目获取文章的全文；
-4. DataOutputAgent：输出全文RSS。
+# 筛选 RSS 源，制作新的全文 RSS 源
+**问题**：假如你喜欢的网站只提供摘要型的 RSS 源，但是你希望能在 RSS 阅读器中阅读全文 RSS，同时还希望它只推送某些特定的文章
+**解决方法**：利用 Huginn 制作一个经过筛选的全文 RSS 源，实现方法如下：
+1. RSSAgent：获取并解析网站提供的 RSS 源；
+2. TriggerAgent：过滤 RSS 源中的项目；
+3. WebsiteAgent：通过 RSS 源中的项目获取文章的全文；
+4. DataOutputAgent：输出全文 RSS。
 
 ## 1. RSSAgent
 _Name_: Example RSS In
@@ -32,7 +32,7 @@ _Propagate immediately_: Yes
   ]
 }
 ```
-> **注意**：将`keep_event`设置为`true`，从而将解析的项目元素传递给下一个agent
+> **注意**：将 `keep_event` 设置为 `true`，从而将解析的项目元素传递给下一个 agent
 
 ## 3. WebsiteAgent
 _Name_: Example page fetch  
@@ -52,7 +52,7 @@ _Propagate immediately_: Yes
   }
 }
 ```
-> **注意**：将`mode`设置为`merge`，从而将解析的项目元素传递给下一个agent
+> **注意**：将 `mode` 设置为 `merge`，从而将解析的项目元素传递给下一个 agent
 
 ## 4. DataOutputAgent
 _Name_: Example Rss out  
@@ -76,4 +76,3 @@ _Propagate immediately_: Yes
   }
 }
 ```
- 
