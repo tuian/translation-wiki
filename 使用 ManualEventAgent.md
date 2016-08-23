@@ -8,10 +8,11 @@
 
 * 在 Agents 列表里或者 Scenario 图表里，点击 Manual Event Agent，之后点击 Summary。
 
-    { "message": "Hello, world!" }
+		{ "message": "Hello, world!" }
 
 * 在 Option 的输入框里，输入 JSON 文档，用来描述事件。下面是一个简单的示例：
-	 { "message": "Hello, world!" }
+		
+		{ "message": "Hello, world!" }
 
 * 点击 Submit 按钮。这个事件将会被创建，之后会在事件链中向后面传递。
 
