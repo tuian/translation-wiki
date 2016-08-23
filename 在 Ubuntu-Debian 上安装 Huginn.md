@@ -4,11 +4,11 @@
 
 由于文章中包含了很多你可能用到的例子和命令，所以这这份指南会很长。
 
-这份安装指南是基于 Ubuntu/Debian 创建的，已经在上述的系统上完成测试。请阅读[必需的硬件和操作系统](https://github.com/cantino/huginn/blob/master/doc/manual/requirements.md)来获取更详细的指南。
+这份安装指南是基于 Ubuntu/Debian 创建的，已经在上述的系统上完成测试。请阅读[必需的硬件和操作系统](https://github.com/cantino/huginn/blob/master/doc/manual/requirements.md)来了解所需的软硬件要求。
 
-这是官方用来指导部署生产环境下 Huginn 的指南。如果需要在开发环境中进行安装或者其他选项，请查看[开始](https://github.com/cantino/huginn#getting-started)。
+这是官方用来指导部署生产环境下 Huginn 的指南。如果需要在开发环境中进行安装或者想了解其他安装选项，请查看[开始](https://github.com/cantino/huginn#getting-started)。
 
-接下来的几个步骤会让你对这项工作更了解。所以请小心的阅读以免偏离了教程的步骤，并确保你没有违反任何我们所要求的安装环境。举个例子，很多人运行会出现权限问题，是因为他们改变了文件夹的位置，或者用其他用户运行了服务。
+以下步骤已被证明是有效的，在使用本指南时请务必谨慎以免有所偏离，并确保你没有违反任何我们所要求的安装环境。举个例子，很多人运行会出现权限问题，是因为他们改变了文件夹的位置，或者用其他用户运行了服务。
 
 如果你在这份指导上发现任何 bug 或者错误，请提交一个 pull request。
 
