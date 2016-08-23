@@ -1,4 +1,4 @@
-在Ubuntu/Debian上安装Huginn
+在 Ubuntu/Debian 上安装 Huginn
 
 ## 注意事项
 
@@ -398,3 +398,4 @@ tail -f /home/huginn/huginn/log/*/current
 你可能发现其他你无法解决的错误信息或者意外的回溯信息。请新建一个新的包含足够的信息的 issue ，这样你可以获得这个问题的解决办法。
 
 
+> 本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问[https://github.com/cantino/huginn/blob/master/doc/manual/installation.md](https://github.com/cantino/huginn/blob/master/doc/manual/installation.md)
