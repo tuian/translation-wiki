@@ -15,4 +15,5 @@
 
 * 点击 Submit 按钮。这个事件将会被创建，之后会在事件链中向后面传递。
 
+本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问：[https://github.com/cantino/huginn/wiki/Using-the-ManualEventAgent](https://github.com/cantino/huginn/wiki/Using-the-ManualEventAgent)。
 
