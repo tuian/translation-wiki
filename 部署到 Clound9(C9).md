@@ -21,3 +21,6 @@ bundle exec rake db:seed
 bundle exec foreman start
 ```
 打开 Cloud9 提供的网址就可以看到 Huginn 网站的首页，你可以注册该网站，注册邀请码为 `try-huginn`，但是，**Cloud9 建立的网站在关闭工作空间之后无法长时间维持**，因此，在正常使用时不推荐使用它来运行 Huginn。
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Deploying-Huginn-on-C9-or-Cloud-9](https://github.com/cantino/huginn/wiki/Deploying-Huginn-on-C9-or-Cloud-9)
+

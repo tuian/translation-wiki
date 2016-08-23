@@ -20,4 +20,6 @@
 
 
 
-本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，原文请访问 https://github.com/cantino/huginn/wiki
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Deploying-huginn-on-any-server-or-virtualbox-using-chef-solo-and-or-vagrant](https://github.com/cantino/huginn/wiki/Deploying-huginn-on-any-server-or-virtualbox-using-chef-solo-and-or-vagrant)
+
+

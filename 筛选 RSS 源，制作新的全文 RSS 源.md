@@ -76,3 +76,6 @@ _Propagate immediately_: Yes
   }
 }
 ```
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Generating-a-filtered-full-text-RSS-feed](https://github.com/cantino/huginn/wiki/Generating-a-filtered-full-text-RSS-feed)
+

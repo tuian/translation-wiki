@@ -93,3 +93,6 @@ Basecamp 事件如下（在完整事件上有所删减）：
 ```
 
 ```
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Formatting-Events-using-Liquid](https://github.com/cantino/huginn/wiki/Formatting-Events-using-Liquid)
+

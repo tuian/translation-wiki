@@ -1,4 +1,4 @@
-﻿# 使用 PostgreSQL 代替 Mysql
+# 使用 PostgreSQL 代替 Mysql
 
 这是 [Novice setup guide][novice-setup-guide] 的附录，你可以通过本篇向导使用 PostgreSQL 代替 Mysql 。
 
@@ -44,3 +44,6 @@
 
 [novice-setup-guide]:  https://github.com/cantino/huginn/wiki/Novice-setup-guide
 [postgresql]:  http://www.postgresql.org/
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Using-PostgreSQL-instead-of-MySQL](https://github.com/cantino/huginn/wiki/Using-PostgreSQL-instead-of-MySQL)
+

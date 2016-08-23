@@ -48,4 +48,5 @@
 * 如果你想在单独的容器上运行 Huginn 的 web 进程, 这里也有别的方法 https://github.com/hackedu/huginn-docker.这个也是使用编译好的 Unicorn 作为 web 服务器.
 
 
-本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，原文请访问 https://github.com/cantino/huginn/wiki
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/blob/master/doc/docker/install.md](https://github.com/cantino/huginn/blob/master/doc/docker/install.md)
+

@@ -19,3 +19,6 @@ huginn/log/development.log
 需要做的:
 
 详细解释 between log() 与 errors.add() 的差异
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Debugging-an-agent](https://github.com/cantino/huginn/wiki/Debugging-an-agent)
+

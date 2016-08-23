@@ -32,3 +32,6 @@ heroku config:set EMAIL_FROM_ADDRESS=you@gmail.com # 指定显示的发件人邮
 ```
 ###备份你的数据
 参见 [Heroku 的官方文档](https://devcenter.heroku.com/articles/heroku-postgres-import-export)
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/blob/master/doc/heroku/install.md](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md)
+

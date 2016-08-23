@@ -14,3 +14,6 @@
 * 注册时，在第二步 `Where shall we send your email?` 中，在 `Enter the URL of your server (HTTP Endpoint)` 中填入上面的 URL，在 `POST Format` 中选择 `JSON Format`；
 
 直此，你已经完成了基本的设置，当你发送邮件给 Cloudmailin 提供的邮箱时，将会触发 Webhook agent ，产生事件（event）。如果你将 Webhook agent 作为触发其他 agent 的条件时，也将会触发其他 agent，从而实现自动化功能。
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Parse-incoming-email-with-Cloudmailin](https://github.com/cantino/huginn/wiki/Parse-incoming-email-with-Cloudmailin)
+

@@ -40,3 +40,6 @@
 
     访问 [http://localhost:3000/](http://localhost:3000/) 然后使用默认的帐号和密码登录即可.
 
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://gist.github.com/mjhea0/b6b58eefc38985380ff9](https://gist.github.com/mjhea0/b6b58eefc38985380ff9)
+

@@ -8,9 +8,9 @@
 ![01](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_01.jpg "01")
 
 
-￼
 
-在￼设置你的Huginn服务￼后, 你需要创建一些twitter证书。 接着按照￼Huginn维基说明￼注册一个Twitter应用程序，编辑.env文件以便在Huginn实例上安装它。
+
+在设置你的Huginn服务后, 你需要创建一些twitter证书。 接着按照Huginn维基说明注册一个Twitter应用程序，编辑.env文件以便在Huginn实例上安装它。
 
 现在，您已经完成了建立一个Twitter的应用程序；重新启动您的Huginn实例；访问服务页，并点击“Authenticate with Twitter”。Twitter将请求你登录并授权给twitter应用。当你这样做，你应该看到Huginn新的服务与您的Twitter用户名。
 
@@ -21,23 +21,26 @@
 
 您的屏幕现在看起来应该是这样的：
 
-![02](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_02.png "02")￼
+![02](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_02.png "02")
 
 接下来，让我们建立一个新的PeakDetectorAgent。PeakDetectorAgent被用于检测数据流的趋势。在我们的例子中，我们要寻找在Twitter的事件计数尖峰。他只从这里更改默认是把“stdmultiple”5代替3，这都由你决定，越高的数字代表越高的敏感度，如果你得到的提醒太多或太少，您可以自定义该值。（这里STD表示标准偏差。您的数据可能是不实际的Gaussian，但std使得一个很好的调整因素）
-￼![03](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_03.png "03")
+![03](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_03.png "03")
 
 如果你让你的Huginn运行了一段时间，等待发生的一些科学革命，然后单击“显示”，你可能会看到这样的事情：
 
-![04](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_04.png "04")￼
+![04](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_04.png "04")
 
 如果你愿意，你可以在这里停止。你需要这个功能！PeakDetectorAgent的输出发送到电子邮件或电子邮件消化剂，您会收到警报时的Twitter感兴趣的尖峰。但是，为了提高可读性，我建议增加一个代理流程：一个 EventFormattingAgent.
 
-￼![05](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_05.png "05")
+![05](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_05.png "05")
 
 此代理将从峰值检测器输出JSON格式成为一个更可读的格式以链接到搜索Twitter，看到了骚动是关于什么的。这个连接到邮件代理，就大功告成了！
 
-![06](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_06.png "06")￼
+![06](http://7oxfwx.com1.z0.glb.clouddn.com/2016_08_17_06.png "06")
 
 这个例子的Huginn代理流程具有中等响应时间，感兴趣的峰值在Twitter上开始后，响应30-60分钟。有些题目要求更快的响应时间，像像“旧金山海啸预警”，“闪售票”或“股市崩溃”。处理警报喜欢这些，我运行不同TwitterStreamAgent和PeakDetectorAgent与TwitterStreamAgent检查每2分钟，PeakDetectorAgent设置为做即时传播。结果峰值是直接发送到电子邮件或短信，而不是电子邮件摘要，让我得到警报非常及时。
 
 Huginn的更多想法和更新，请参与并关注我的Twitter！
+
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [http://blog.andrewcantino.com/blog/2014/03/17/know-when-the-world-changes-with-huginn/](http://blog.andrewcantino.com/blog/2014/03/17/know-when-the-world-changes-with-huginn/)
+

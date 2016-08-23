@@ -37,3 +37,5 @@ TriggerAgents 包含一套规则，所有这一切都必须为触发火灾匹配
 我会尽快发布更多的例子。你想看到什么样的Huginn教程，告诉我吧！
 
 
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn](http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn)
+

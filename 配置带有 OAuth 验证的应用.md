@@ -107,4 +107,6 @@ You may get 420 errors when you use the same Twitter credentials locally and in 
 
 当你在本地或者生产环境下使用同样的 Twitter 凭证时，或者偶然运行了多线程的工作，或是你的多线程工作没有正确的关闭（重复启动会造成多个运行的线程），这些都可能会得到 420 错误。
 
-本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问：[https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications](https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications)。
+> 本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问：[https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications](https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications)。
+
+
