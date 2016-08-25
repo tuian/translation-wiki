@@ -40,10 +40,11 @@
     DATABASE_PORT=5432
 
 ### 继续安装 ###
+
 之后像平常一样安装就可以了。
 
 [novice-setup-guide]:  https://github.com/cantino/huginn/wiki/Novice-setup-guide
 [postgresql]:  http://www.postgresql.org/
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Using-PostgreSQL-instead-of-MySQL](https://github.com/cantino/huginn/wiki/Using-PostgreSQL-instead-of-MySQL)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Using PostgreSQL instead of MySQL](https://github.com/cantino/huginn/wiki/Using-PostgreSQL-instead-of-MySQL)
 

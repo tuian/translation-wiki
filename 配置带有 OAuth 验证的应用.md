@@ -105,6 +105,6 @@ Callback URL 这一项非常重要，请参照如下格式填写： `http://<you
 
 假如你在本地或者云端同时使用同样的 Twitter 凭证，或者偶然使用多线程运行多个实例，或者是多线程没有及时地关闭（也会造成多个副本实例在运行），这些都有可能会导致 420 错误。
 
-> 本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问：[https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications](https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications)。
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，原文请访问：[Configuring OAuth applications](https://github.com/cantino/huginn/wiki/Configuring-OAuth-applications)。
 
 

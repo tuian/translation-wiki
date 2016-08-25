@@ -48,12 +48,12 @@
 
 重要提示:
 
-
 在 Apache 2.4 .htaccess 和 VirtualHost setting 有一些新的变化.
 你需要用 Allow 替换 Deny  
 在设置里面还有 Require all granted 和 Require all denied 比如这样.
 
 从
+
 ```
     <Proxy *>
         Order allow,deny
@@ -66,7 +66,9 @@
         Options -MultiViews
     </Directory>
 ```
+
 改为
+
 ```
     <Proxy *>
          Require all granted
@@ -78,8 +80,9 @@
         Options -MultiViews
     </Directory>
 ```
+
 更多的信息可以查看这个网页: http://tecadmin.net/authz-core-error-client-denied-by-server-configuration/
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Apache-Huginn-configuration](https://github.com/cantino/huginn/wiki/Apache-Huginn-configuration)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Apache Huginn configuration](https://github.com/cantino/huginn/wiki/Apache-Huginn-configuration)
 
 

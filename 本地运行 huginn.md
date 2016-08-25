@@ -6,6 +6,7 @@
         $ cd huginn
 
 2. 安装 [Ruby](http://www.ruby-lang.org/en/downloads/) and [Ruby Gems](https://rubygems.org/pages/download) (如果未安装)
+
 3. 安装 rake 和 bundle (如果未安装):
 
         $ gem install rake bundle
@@ -41,5 +42,5 @@
     访问 [http://localhost:3000/](http://localhost:3000/) 然后使用默认的帐号和密码登录即可.
 
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://gist.github.com/mjhea0/b6b58eefc38985380ff9](https://gist.github.com/mjhea0/b6b58eefc38985380ff9)
+> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [install_huginn_locally](https://gist.github.com/mjhea0/b6b58eefc38985380ff9)
 

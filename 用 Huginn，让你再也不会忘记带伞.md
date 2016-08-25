@@ -1,6 +1,5 @@
 # 用Huginn，让你再也不会忘记带伞
-> 作者：Andrew Cantino
-> [原文链接](http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn/?utm_source=tuicool&utm_medium=referral)
+
 
 [Huginn](https://github.com/cantino/huginn) 是一年来我在广大开源协作者的支持下一直在做的一款工具。Huginn是建立数据采集和数据反应日常生活的任务的轻型基础设施,把它看成是一个开源的 Yahoo! Pipes，IFTTT，或 Zapier。如果，在未来，Huginn 演变成类似 Google Now，但没有潜在的因素，因为您可以控制​​和主机自己的数据，它不会让我感到吃惊。
 
@@ -29,7 +28,6 @@ TriggerAgents 包含一套规则，所有这一切都必须为触发火灾匹配
 
 设置的事件的日程安排在早上6点运行，这样你醒来就可以收到电子邮件。记得为你刚刚创建的下雨警报事件设置来源。
 
-
 ![](http://ww3.sinaimg.cn/large/70b88a6bjw1f602r69lalj21hu0ve0zs.jpg)
 
 就是这样！现在，您会在早上6点的早晨，当雨水在你的面积预计收到一封电子邮件。保持干爽！
@@ -37,5 +35,5 @@ TriggerAgents 包含一套规则，所有这一切都必须为触发火灾匹配
 我会尽快发布更多的例子。你想看到什么样的Huginn教程，告诉我吧！
 
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn](http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Never Forget Your Umbrella Again, With Huginn](http://blog.andrewcantino.com/blog/2014/01/12/never-forget-your-umbrella-again-with-huginn)
 

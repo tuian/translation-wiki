@@ -46,5 +46,5 @@ Procfile 这个文件不需要修改，你看看也行。
 我之后可能会做一个 Dockerfile ，
 然后你就可以自己创建一个 docker 实例，而不用拖 Huginn 的 docker 镜像。
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Deploying-huginn-on-any-server-or-virtualbox-using-chef-solo-and-or-vagrant](https://github.com/cantino/huginn/wiki/Deploying-huginn-on-any-server-or-virtualbox-using-chef-solo-and-or-vagrant)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Deploying huginn on any server or virtualbox using chef solo and or vagrant](https://github.com/cantino/huginn/wiki/Deploying-huginn-on-any-server-or-virtualbox-using-chef-solo-and-or-vagrant)
 

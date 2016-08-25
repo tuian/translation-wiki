@@ -15,5 +15,5 @@ Manual Event Agent 是 Huginn 中最有用的工具之一， 可以用来开发�
 
 * 最后，点击 Submit 按钮。这个手动创建的事件将会触发后续的事件。
 
-> 本文由 Huginn 中文网 翻译，已经获得项目作者授权，原文请访问：[https://github.com/cantino/huginn/wiki/Using-the-ManualEventAgent](https://github.com/cantino/huginn/wiki/Using-the-ManualEventAgent)
+> 本文由 [Huginn 中文网](http://huginn.cn) 中文网 翻译，已经获得项目作者授权，原文请访问：[Using the ManualEventAgent](https://github.com/cantino/huginn/wiki/Using-the-ManualEventAgent)
 

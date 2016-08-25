@@ -1,4 +1,5 @@
 # 筛选 RSS 源，制作新的全文 RSS 源
+
 **问题**：假如你喜欢的网站只提供摘要型的 RSS 源，但是你希望能在 RSS 阅读器中阅读全文 RSS，同时还希望它只推送某些特定的文章
 **解决方法**：利用 Huginn 制作一个经过筛选的全文 RSS 源，实现方法如下：
 1. RSSAgent：获取并解析网站提供的 RSS 源；
@@ -7,6 +8,7 @@
 4. DataOutputAgent：输出全文 RSS。
 
 ## 1. RSSAgent
+
 _Name_: Example RSS In
 ```
 {
@@ -15,7 +17,9 @@ _Name_: Example RSS In
   "url": "http://www.businesscat.happyjar.com/feed/"
 }
 ```
+
 ## 2. TriggerAgent
+
 _Name_: Example filter
 _Event sources_: Example RSS In
 _Propagate immediately_: Yes
@@ -35,6 +39,7 @@ _Propagate immediately_: Yes
 > **注意**：将 `keep_event` 设置为 `true`，从而将解析的项目元素传递给下一个 agent
 
 ## 3. WebsiteAgent
+
 _Name_: Example page fetch  
 _Event sources_: Example filter  
 _Propagate immediately_: Yes  
@@ -55,9 +60,11 @@ _Propagate immediately_: Yes
 > **注意**：将 `mode` 设置为 `merge`，从而将解析的项目元素传递给下一个 agent
 
 ## 4. DataOutputAgent
+
 _Name_: Example Rss out  
 _Event sources_: Example page fetch  
 _Propagate immediately_: Yes  
+
 ```
 {
   "secrets": [
@@ -77,5 +84,5 @@ _Propagate immediately_: Yes
 }
 ```
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Generating-a-filtered-full-text-RSS-feed](https://github.com/cantino/huginn/wiki/Generating-a-filtered-full-text-RSS-feed)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Generating a filtered full-text RSS feed from an existing RSS feed](https://github.com/cantino/huginn/wiki/Generating-a-filtered-full-text-RSS-feed)
 

@@ -20,15 +20,18 @@
 ### 更新已经部署好的 Huginn
 
 Huginn 的功能还在继续开发过程中，在将 Huginn 部署到 Heroku 平台之后，可以通过以下命令来更新 Huginn 的代码：
+
 ```
 git fetch origin
 git merge origin/master
 git push -f heroku master # 更新 Heroku 平台上的 Huginn 代码
 heroku run rake db:migrate # 迁移数据库到最新状态的 Huginn（尽管不需要每次更新时都运行该命令，但是安全起见，最好每次更新代码时，都运行该命令）
 ```
+
 ### 使用自己的邮箱服务器
 
 在安装过程中默认使用的是 SendGrid 的邮箱服务器（安装后需要自行配置），你也可以使用其他邮箱服务器，下面以谷歌邮箱服务器为例，需要进行以下配置：
+
 ```
 heroku config:set SMTP_DOMAIN=google.com
 heroku config:set SMTP_USER_NAME=you@gmail.com
@@ -41,5 +44,5 @@ heroku config:set EMAIL_FROM_ADDRESS=you@gmail.com # 指定显示的发件人邮
 
 参见 [Heroku 的官方文档](https://devcenter.heroku.com/articles/heroku-postgres-import-export)
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/blob/master/doc/heroku/install.md](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Deploy to Heroku](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md)
 

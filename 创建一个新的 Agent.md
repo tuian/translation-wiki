@@ -123,7 +123,7 @@ def receive_web_request(request)
 end
 ```
 
-Please see the [WebRequestsController](https://github.com/cantino/huginn/blob/master/app/controllers/web_requests_controller.rb) for more documentation， as well as the implementations of `receive_web_request` in [WebhookAgent](https://github.com/cantino/huginn/blob/master/app/models/agents/webhook_agent.rb) and [DataOutputAgent](https://github.com/cantino/huginn/blob/master/app/models/agents/data_output_agent.rb).
+在 [WebRequestsController](https://github.com/cantino/huginn/blob/master/app/controllers/web_requests_controller.rb) 查看更多详细信息， 和 [WebhookAgent](https://github.com/cantino/huginn/blob/master/app/models/agents/webhook_agent.rb) 中的 `receive_web_request` 和 [DataOutputAgent](https://github.com/cantino/huginn/blob/master/app/models/agents/data_output_agent.rb) 一样执行。
 
-> 本文由 [ Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [https://github.com/cantino/huginn/wiki/Creating-a-new-agent](https://github.com/cantino/huginn/wiki/Creating-a-new-agent)
+> 本文由 [Huginn 中文网](http://huginn.cn) 翻译，已经获得项目作者授权，项目原文访问 [Creating a new agent](https://github.com/cantino/huginn/wiki/Creating-a-new-agent)
 
