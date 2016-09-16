@@ -1,4 +1,4 @@
-## 部署到Clound9(C9)
+## 部署到Cloud9(C9)
 
 * 在 [Cloud9](https://c9.io/?redirect=0) 的控制面板上创建一个 rails 环境的工作空间，进入工作空间后，依次执行以下命令：
 
