@@ -1,7 +1,7 @@
 ---
 post_title: '部署到 Heroku'
 layout: post_type_probably_post
-published: true
+published: true_or_false
 ---
 如果要将 Huginn 部署到 Heroku 平台，我们**推荐你使用最便宜的付费方案**，但是，如果你要使用免费方案的话，你需要注意以下几点：
 
