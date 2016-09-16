@@ -1,8 +1,4 @@
----
-post_title: '部署到 Heroku'
-layout: post
-published: true
----
+# 部署到Heroku
 如果要将 Huginn 部署到 Heroku 平台，我们**推荐你使用最便宜的付费方案**，但是，如果你要使用免费方案的话，你需要注意以下几点：
 
 * 使用 Heroku 免费方案的用户，其每个网站在 30 分钟内无人访问后便会自动关闭，再有人访问时才会自动重新打开，因此为了使 Huginn 网站能长时间运行，可以使用类似 [uptimerobot](https://uptimerobot.com/) 的网站监控服务，不停地ping你的 Huginn 网站地址；
